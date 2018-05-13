@@ -1,6 +1,6 @@
 <template>
 <div>
-      <div v-for="fruit in fruits" :key="fruit.id">
+      <div class="container" v-for="fruit in fruits" :key="fruit.id">
       <ul>{{ fruit.name }}</ul>
   </div>
 </div>
@@ -18,4 +18,3 @@ export default {
   }
 };
 </script>
-
