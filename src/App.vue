@@ -1,9 +1,16 @@
 <template>
-  <h3>Vue Fruits app</h3>
+  <div>
+    <FruitList></FruitList>
+  </div>
 </template>
 
 <script>
+import FruitList from './components/FruitList';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    FruitList
+  }
 }
 </script>
